@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/mytool"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/id_textac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WOEZO VA ASSEM ME "
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/connectionid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_textac"
+        android:layout_marginTop="30sp"
+        android:text="Connexion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="#DFD4D4"/>
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connectionid"
+        android:layout_marginTop="30sp"
+        android:text="Inscription"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="#DFD4D4"/>
+
+
+
+</RelativeLayout>

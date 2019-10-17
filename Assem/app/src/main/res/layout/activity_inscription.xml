@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vue.InscriptionActivity">
+
+    <include
+        android:id="@+id/mytool"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+    android:id="@+id/id_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CREER UN COMPTE"
+    android:layout_marginTop="12sp"
+    android:layout_centerInParent="true"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:layout_below="@id/mytool"/>
+
+    <EditText
+        android:id="@+id/id_nom"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Nom"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/id_text"
+        android:layout_marginTop="20sp"/>
+    <EditText
+        android:id="@+id/id_email"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Email"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/id_nom"
+        android:layout_marginTop="20sp"/>
+    <EditText
+        android:id="@+id/id_pass"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Mot de passe"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/id_email"
+        android:layout_marginTop="20sp"/>
+    <EditText
+        android:id="@+id/id_conf"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirmer"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/id_pass"
+        android:layout_marginTop="20sp"/>
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creer"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/id_conf"/>
+
+</RelativeLayout>

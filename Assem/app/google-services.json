@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "44736886908",
+    "firebase_url": "https://asem-ecf58.firebaseio.com",
+    "project_id": "asem-ecf58",
+    "storage_bucket": "asem-ecf58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44736886908:android:fc11283f2b3c717841b1f9",
+        "android_client_info": {
+          "package_name": "com.projet.shat.assem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44736886908-mejrp67r841g391lebj0ploep3rhkfbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projet.shat.assem",
+            "certificate_hash": "7b9a824f1c89458662193d775ee465de52478b96"
+          }
+        },
+        {
+          "client_id": "44736886908-927n1ifal8uoc2ecos7s8rvl6sft0cj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJVV4k8c9qXHJphBQhMPSKXODokgXNo_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44736886908-927n1ifal8uoc2ecos7s8rvl6sft0cj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

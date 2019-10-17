@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+
+    android:id="@+id/toolbar"
+    android:theme="@style/TextAppearance.AppCompat"
+    android:popupTheme="@style/TextAppearance.AppCompat">
+
+</Toolbar>
